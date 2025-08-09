@@ -30,7 +30,7 @@ const Plans = () => {
             <div className="flex items-center justify-center gap-6 bg-n-b-2 py-3 rounded-md mt-8">
                 <p
                     className={twMerge(
-                        "text-sm font-bold tra",
+                        "text-sm font-bold tra select-none",
                         type === "monthly" ? "text-p-b-3" : "text-n-g"
                     )}
                 >
@@ -44,7 +44,7 @@ const Plans = () => {
                         })
                     }
                     className={twMerge(
-                        "relative text-sm font-bold bg-p-b-3 py-2.5 px-5 rounded-full"
+                        "relative text-sm font-bold bg-p-b-3 py-2.5 px-5 rounded-full cursor-pointer"
                     )}
                 >
                     <div
@@ -58,11 +58,11 @@ const Plans = () => {
                 </div>
                 <p
                     className={twMerge(
-                        "text-sm font-bold tra",
+                        "text-sm font-bold tra select-none",
                         type === "monthly" ? "text-n-g" : "text-p-b-3"
                     )}
                 >
-                    Yealy
+                    Yearly
                 </p>
             </div>
         </motion.div>

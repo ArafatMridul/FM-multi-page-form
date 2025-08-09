@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className="relative">
             <picture>
-                <source media="(min-width: 62.5rem)" srcset={deskBg} />
+                <source media="(min-width: 62.5rem)" srcSet={deskBg} />
                 <img
                     src={mobBg}
                     alt="sidebar background"

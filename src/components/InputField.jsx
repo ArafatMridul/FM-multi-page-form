@@ -27,7 +27,7 @@ const InputField = ({ type, label, placeholder, onchange, value, error }) => {
                 type={type}
                 placeholder={placeholder}
                 className={twMerge(
-                    "ring-1 ring-n-p px-4 py-2 lg:py-2.5 rounded-sm lg:rounded-m placeholder:text-n-g md:mt-2 focus:outline-0 cursor-pointer focus:ring-1 focus:ring-p-p tra text-p-b-3 lg:text-md font-medium",
+                    "ring-1 ring-n-p px-4 py-2 lg:py-2.5 rounded-sm lg:rounded-m placeholder:text-n-g md:mt-2 focus:outline-0 focus:ring-1 focus:ring-p-p tra text-p-b-3 lg:text-md font-medium",
                     error && "ring-p-r focus:ring-p-r"
                 )}
             />

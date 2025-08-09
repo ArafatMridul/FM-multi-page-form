@@ -15,7 +15,7 @@ const AddOps = ({ label, desc, price }) => {
                 })
             }
             className={twMerge(
-                "px-4 py-2.5 lg:py-4 lg:px-6 flex items-center gap-4 lg:gap-6 ring-1 ring-n-g rounded-md",
+                "px-4 py-2.5 lg:py-4 lg:px-6 flex items-center gap-4 lg:gap-6 ring-1 ring-n-g rounded-md cursor-pointer",
                 clicked && " ring-2 ring-p-p bg-n-b-2"
             )}
         >
