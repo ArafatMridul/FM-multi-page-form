@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+    --color-p-b-1: hsl(206, 94%, 87%);
+    --color-p-b-2: hsl(228, 100%, 84%);
+    --color-p-b-3: hsl(213, 96%, 18%);
+    --color-p-p: hsl(243, 100%, 62%);
+    --color-p-r: hsl(354, 84%, 57%);
+
+    --color-n-b-1: hsl(231, 100%, 99%);
+    --color-n-b-2: hsl(218, 100%, 97%);
+    --color-n-p: hsl(229, 24%, 87%);
+    --color-n-g: hsl(231, 11%, 63%);
+    --color-n-w: hsl(0, 100%, 100%);
+
+    --font-ub: "Ubuntu", sans-serif;
+}
+
+@layer utilities {
+    .wrapper {
+        @apply max-w-[940px] mx-auto;
+    }
+
+    .tra {
+        @apply transition-all duration-500 ease-in-out;
+    }
+
+    .pos {
+        @apply absolute -top-18 left-4 right-4 md:left-16 md:right-16 lg:left-19 lg:right-15 px-6 py-7 lg:py-8 lg:inset-0 shadow-[0_8px_30px_rgba(0,0,0,0.05)] bg-n-w rounded-md lg:shadow-none;
+    }
+}
